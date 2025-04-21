@@ -61,7 +61,7 @@ Você pode testar as rotas utilizando o Postman ou qualquer outra ferramenta de 
 
 ---
 
-## 📂 Estrutura dos dados
+## Estrutura dos dados
 
 ### Exemplo de cliente
 
