@@ -1,7 +1,8 @@
-# Nomes...........: Vitor Boer - 132695-2023, Guilherme Vieira - 128409-2023, Natan Augusto - 125651-2023
+# Nomes...........: Vitor Boer - 132695-2023, Guilherme Vieira - 128409-2023, Natan Augusto - 125651-2023, João Vítor Ferreira Duarte - 130142-2023
 # Data final......: 21/04/2025
 # Data de entrega.: 22/04/2025
-# Objetivo........: Criar um sistema de biblioteca simples onde seja possível fazer empréstimos de livros.
+# Objetivo........: Criar um sistema de biblioteca simples onde seja possível fazer empréstimos de livros. Atividade feita apenas para
+#                   fins didáticos, não se deve considerar a lógica do programa.
 
 # -----------------------------------------------
 # API - Sistema de Biblioteca (Testes via Postman)
