@@ -1,4 +1,4 @@
-# Nomes...........: Vitor Boer, Guilherme Vieira - 128409-2023, Natan Augusto - 125651-2023
+# Nomes...........: Vitor Boer - 132695-2023, Guilherme Vieira - 128409-2023, Natan Augusto - 125651-2023
 # Data final......: 21/04/2025
 # Data de entrega.: 22/04/2025
 # Objetivo........: Criar um sistema de biblioteca simples onde seja possível fazer empréstimos de livros.
@@ -15,10 +15,10 @@
 # POST http://localhost:5000/clientes
 
 # PUT - Atualizar um cliente existente
-# PUT http://localhost:5000/clientes/1
+# PUT http://localhost:5000/clientes/1 (atualizar por id)
 
 # DELETE - Deletar um cliente pelo ID 
-# DELETE http://localhost:5000/clientes/1
+# DELETE http://localhost:5000/clientes/1 (deletar por id)
 
 # ---------- LIVROS ----------
 
@@ -28,11 +28,11 @@
 # POST - Cadastrar um novo livro
 # POST http://localhost:5000/livros
 
-# PUT - Atualizar um livro existente
+# PUT - Atualizar um livro existente (atualizar por id)
 # PUT http://localhost:5000/livros/1
 
 # DELETE - Deletar um livro pelo ID 
-# DELETE http://localhost:5000/livros/1
+# DELETE http://localhost:5000/livros/1 (deletar por id)
 
 # ---------- EMPRÉSTIMOS ----------
 
@@ -43,16 +43,16 @@
 # POST http://localhost:5000/emprestimos
 
 # PUT - Atualizar um empréstimo existente 
-# PUT http://localhost:5000/emprestimos/1
+# PUT http://localhost:5000/emprestimos/1 (atualizar por id)
 
 # DELETE - Deletar um empréstimo pelo ID 
-# DELETE http://localhost:5000/emprestimos/1
+# DELETE http://localhost:5000/emprestimos/1 (deletar por id)
 
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-# Simulando banco de dados
+# Simulando banco de dados, dados fictícios
 clientes = [
     {"id": 1, "nome": "João Silva", "email": "joao@example.com", "telefone": "1234-5678"},
     {"id": 2, "nome": "Maria Oliveira", "email": "maria@example.com", "telefone": "9876-5432"},
