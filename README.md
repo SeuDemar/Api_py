@@ -16,26 +16,6 @@ Este projeto é uma API simples de gerenciamento de uma biblioteca, desenvolvida
 
 ---
 
-## Como executar
-
-1. Instale o Flask (caso ainda não tenha):
-
-   ```bash
-   pip install flask
-   ```
-
-2. Execute o arquivo principal:
-
-   ```bash
-   python nome_do_arquivo.py
-   ```
-
-3. Acesse o endereço: `http://localhost:5000`
-
-Você pode testar as rotas utilizando o Postman ou qualquer outra ferramenta de API REST, além de que, as requests estão comentadas no corpo do código.
-
----
-
 ## Rotas disponíveis (testes via Postman)
 
 ### CLIENTES
